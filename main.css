@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Sixtyfour&display=swap');
+
+body{
+    background-color: rgb(220, 177, 20);
+
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+}
+header, main{
+
+    background-color: #f5f8bb;
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 100px;
+  
+}
+.imgtop{
+    width: 100px;
+    float: left;
+}
+nav li{
+    display: inline;
+    margin-left: 10px;
+}
+h1, h2{
+    font-family: 'Honk', cursive;
+
+
+}
+main{
+    margin-top: 20px;
+    line-height: 1,5em;
+}
+p{
+    font-family: 'Sixtyfour', cursive;
+}
+
+@media only screen and (max-width : 700px){
+/*styles*/
+
+   
+
+    h1{
+        text-align: center;
+        background-color: white;
+        font-size: 1.6em;
+        padding-top: 20px;
+
+    }
+    .imgto{
+        display: none;
+    }
+
+    nav a{
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+        background-color: aquamarine;
+        text-align: center;
+        text-decoration: none;
+        margin-left: -25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    h2{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    ul{
+        list-style-type: none;
+        margin-top: 20px;
+        margin-left: 0px;
+        
+    }
+
+    }
